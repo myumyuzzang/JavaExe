@@ -11,7 +11,7 @@ public class LogicOperator {
 		logic = true && false;
 		System.out.println("true && false => " + logic);
 		
-		//Or 연산
+		// Or 연산
 		logic = true || true;
 		System.out.println("true || true => " + logic);
 		logic = true || false;
