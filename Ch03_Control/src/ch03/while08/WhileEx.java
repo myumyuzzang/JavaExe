@@ -10,7 +10,7 @@ public class WhileEx {
 			i++;	// 증감식 (변화:얼마만큼)
 			System.out.print(i + ", "); // 실행문
 		}
-
+ 
 	}
 
 }
