@@ -1,7 +1,7 @@
 package ch05.array05.ch05.sec09;
 
 public class ArrayCopyExample {
-	// 교재 187페이지 예문 배열 복사
+	// 교재 188페이지 예문 배열 복사
 	public static void main(String[] args) {
 		// 길이가 3인 배열
 		String[] oldStrArray = { "java", "array", "copy" };
