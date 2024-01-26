@@ -17,6 +17,7 @@ public class Resolve2 {
 		System.out.println("정수를 입력하세요: ");
 		
 		int number = scanner.nextInt();
+		
 		scanner.close();
 		
 			int quotient = number / 10; // 몫

@@ -1,6 +1,6 @@
-package ch02.AssignmaentOperator10;
+package ch02.AssignmentOperator10;
 
-public class AssignmaentOperator {
+public class AssignmentOperator {
 
 	public static void main(String[] args) {
 		int num = 0;

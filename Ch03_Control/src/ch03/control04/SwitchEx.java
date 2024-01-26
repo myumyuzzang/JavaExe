@@ -18,7 +18,7 @@ public class SwitchEx {
 //		break를 만나면 switch문이 종료된다.
 		switch(sel) {
 		case 1:
-			System.out.println("짜장면이 나왔습니;다.");
+			System.out.println("짜장면이 나왔습니다.");
 			break;
 		case 2:
 			System.out.println("짬뽕이 나왔습니다.");

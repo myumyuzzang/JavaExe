@@ -40,7 +40,6 @@ public class ArrayEx {
 		System.out.println(Arrays.toString(scores1));
 		System.out.println(Arrays.toString(scores2));
 		System.out.println(Arrays.toString(scores4));
-		System.out.println();
 		
 	}
 }

@@ -1,11 +1,14 @@
 package ch05.array05.ch05.sec09;
 
 public class AdvanceForExample {
+	// 교재 190페이지 배열 항목 반복을 위한 향상된 for문 예문
 	public static void main(String[] args) {
 		// 배열 변수 선언과 배열 생성
 		int[] scores = { 95, 71, 84, 93, 87 };
 		// 배열 항목 전체 합 구하기
 		int sum = 0;
+		
+		// foreach문
 		for (int score : scores) {
 			sum = sum + score;
 		}
