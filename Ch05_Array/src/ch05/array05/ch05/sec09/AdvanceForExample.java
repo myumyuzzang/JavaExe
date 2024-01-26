@@ -14,5 +14,5 @@ public class AdvanceForExample {
 		double avg = (double) sum / scores.length;
 		System.out.println("점수 평균 = " + avg);
 	}
-
+ 
 }
