@@ -1,6 +1,7 @@
 package ch05.array05.ch05.sec09;
 
 public class ArrayCopyByForExample {
+	// 교재 187페이지 예문 배열 복사
 	public static void main(String[] args) {
 		// 길이 3인 배열
 		int[] oldIntArray = { 1, 2, 3 };
