@@ -10,7 +10,7 @@ public class Resolve2 {
 		// ****
 		// *****
 		
-		for(int i=1; i<=5; i++) {
+		for(int i=1; i<=5; i++) { // 행의 변화
 			for (int j = 1; j<= i; j++) {
 				System.out.print("*");				
 			}

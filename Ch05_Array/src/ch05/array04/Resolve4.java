@@ -1,4 +1,4 @@
-package ch05.array01;
+package ch05.array04;
 
 public class Resolve4 {
 	public static void main(String[] args) {
@@ -14,7 +14,7 @@ public class Resolve4 {
 		
 		// 거꾸로 출력
 		for(int i = num.length - 1; i >= 0; i--) {
-			System.out.println(num[i]);
+			System.out.print(num[i] + ", ");
 		}
 	}
 

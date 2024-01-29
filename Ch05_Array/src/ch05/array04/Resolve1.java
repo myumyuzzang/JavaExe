@@ -1,4 +1,4 @@
-package ch05.array01;
+package ch05.array04;
 
 public class Resolve1 {
 	public static void main(String[] args) {
@@ -6,9 +6,13 @@ public class Resolve1 {
 		String[] names = {"ethan", "leo", "oliver", "mattew", "dylan",
 				"william", "alfie", "noah", "freddie", "theo"};
 		
-		for(int i = 0; i < names.length; i++) {
-			System.out.println(names[i]);
-		}
+		for(int i = 0; i < names.length; i++) 
+			System.out.print(names[i] + ", ");
+			System.out.println();
+		
+		for(String name : names)
+			System.out.print(name + ", ");
+		System.out.println();
 	}	
 }
 
