@@ -18,11 +18,11 @@ public class resolve5 {
 	// for문을 사용하여 i 변수를 1부터 num까지 반복하며 출력
 	
     public static void star(int num) {
-        for (int i = 1; i <= num; i++) {
-            for (int j = 1; j <= i; j++) {
+        for (int i = 1; i <= num; i++) {	// 세로열
+        for (int j = 1; j <= i; j++) {		// 가로열
                 System.out.print("*");
             }
-            System.out.println();
+            System.out.println(); // 행을 내려서 시작 위치 이동
         }
     }
 }

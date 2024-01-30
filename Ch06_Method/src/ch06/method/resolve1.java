@@ -16,6 +16,7 @@ public class resolve1 {
 
 		System.out.print("두번째 정수를 입력하세요.");
 		int num1 = sc.nextInt();
+		
 		// getmax 메서드와 getmin 메서드를 호출하여 큰 값과 작은 값을 구함
 		int max = getMax(num0, num1);
 		int min = getMin(num0, num1);

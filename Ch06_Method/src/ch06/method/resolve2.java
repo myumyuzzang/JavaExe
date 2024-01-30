@@ -17,15 +17,16 @@ public class resolve2 {
 		System.out.print("두번째 정수를 입력하세요.");
 		int num1 = sc.nextInt();
 		
-		// printAbsoluteDifference는 두 개의 정수를 매개변수로 받아서
-		// 두 수의 차를 구한 후 절대값을 계산함
 		printAbsoluteDifference( num0, num1 );
 		
 		sc.close();
 	}
-		
+		// printAbsoluteDifference는 두 개의 정수를 매개변수로 받아서
+		// 두 수의 차를 구한 후 절대값을 계산함
 		public static void printAbsoluteDifference(int num0, int num1) {
+			// difference 변수 선언
 			int difference;
+			// if문을 사용해 2가지 경우로 나눔, 계산 후 값을 difference에 저장
 			if (num0 > num1) {
 				difference = num0 - num1;
 			} else {

@@ -13,6 +13,12 @@ public class Resolve4 {
 		
 		System.out.println("정렬 전 배열: " + Arrays.toString(numArr));
 		
+		// 난수로 0~100000사이의 임의의 정수를 배열에 저장
+//	+	for (int i = 0; i < numArr.length; i++) {
+//	+		double dVal = Math.random();		 // 0~1사이의 실수 값
+//	+		numArr[i] = (int)(dVal*100000);
+//	+	}
+		
 		// 버블 정렬 알고리즘을 사용하여 배열을 오름차순으로 정렬
 		
 		for(int i = 0; i < numArr.length - 1; i++ ) {
