@@ -12,8 +12,8 @@ public class Resolve1 {
 		Arrays.sort(numbers); // 배열을 오름차순으로 정렬
 		
 		System.out.println("최소값: " + numbers[0]); 
-		// 정렬된 배열의 첫 번째 원소는 최소값
+		// numArr[0]은 정렬된 배열에서 가장 작은 값인 최소값을 의미
 		System.out.println("최대값: " + numbers[numbers.length - 1]);  
-		// 정렬된 배열의 마지막 원소는 최대값
+		// numArr[numArr.length-1]은 정렬된 배열에서 가장 큰 값인 최대값을 의미
 	}
 }
