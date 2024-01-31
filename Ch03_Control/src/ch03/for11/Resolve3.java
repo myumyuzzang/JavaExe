@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Resolve3 {	
 	public static void main(String[] args) {
-	// 교재 140페이지 7번
+	// 교재 139페이지 7번
 	// while 문과 Scanner의 nextLine() 메소드를 이용햐소 다음 실행 결과와 같이 키보드로부터
 	// 입력된 데이터로 예금, 출금, 종료 기능을 제공하는 코드를 작성해보세요.
 		
