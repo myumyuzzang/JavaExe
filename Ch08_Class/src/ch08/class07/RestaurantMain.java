@@ -14,8 +14,6 @@ public class RestaurantMain {
 		Restaurant rest = 
 				new Restaurant(sc, "새마을 식당", 
 					new String [] {"연탄불고기", "소금구이", "차돌박이"});
-		
-		
 		rest.viewMenu();
 		rest.selectFood();
 		rest.deliveryFood();
