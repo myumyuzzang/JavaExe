@@ -1,4 +1,4 @@
-package ch08.class09;
+package ch08.class09answer05;
 
 /*4. Rectangle클래스를 작성하세요
    int타입의 x1, y1, x2, y2 : 사각형을 구성하는 두 점의 좌표
@@ -22,8 +22,8 @@ public class Rectangle {
 	}
 	
 	public int square() {
-		int width = Math.abs(x2 - x1);
-		int height = Math.abs(y2 - y1);
+		int width = Math.abs(x1 - x2);
+		int height = Math.abs(y1 - y2);
 		return width * height;
 	}
 	

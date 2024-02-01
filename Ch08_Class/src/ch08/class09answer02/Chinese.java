@@ -1,9 +1,9 @@
-package ch08.class09;
+package ch08.class09answer02;
 
 import java.util.Scanner;
 
 // 1. 중화요리집을 임의대로 클래스로 만드세요.
-public class Resolve1_China {
+public class Chinese {
 	
 	private String[] foods;
 	private int selectNum;

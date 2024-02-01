@@ -1,4 +1,4 @@
-package ch08.class09;
+package ch08.class09answer04;
 
 /*3. 노래를 나타내는 Song이라는 클래스를 설계하세요.
    <필드>
@@ -16,9 +16,9 @@ package ch08.class09;
    <main 실행>
     ABBA의 "Dancing Queen"
 */
-public class Resolve3_SongMain {
+public class SongMain {
 	public static void main(String[] args) {
-		Resolve3_Song song = new Resolve3_Song();
+		Song song = new Song();
 		song.setSongInfo("Dancing Queen", "ABBA", "Arrival", 
 				"Benny Andersson, Bjorn Ulvaeus", 1976, 1);
 		song.show();

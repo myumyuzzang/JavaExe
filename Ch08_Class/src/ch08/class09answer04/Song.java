@@ -1,4 +1,4 @@
-package ch08.class09;
+package ch08.class09answer04;
 
 /*3. 노래를 나타내는 Song이라는 클래스를 설계하세요.
    <필드>
@@ -16,7 +16,7 @@ package ch08.class09;
    <main 실행>
     ABBA의 "Dancing Queen"
 */
-public class Resolve3_Song {
+public class Song {
 	
 	private String title;
 	private String artist;

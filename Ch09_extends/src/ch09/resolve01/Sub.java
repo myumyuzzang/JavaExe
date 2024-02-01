@@ -1,4 +1,4 @@
-package ch09.resolve07;
+package ch09.resolve01;
 
 /*1. 클래스 Add
    클래스 Sub
@@ -10,6 +10,16 @@ package ch09.resolve07;
    int calculate() : 해당 클래스의 목적에 맞는 연산을 실행하고 결과를 리턴합니다
 */
 
-public class resolve1 {
+public class Sub { 
+	private int a, b;
+	public void setValue(int _a, int _b) {
+		this.a = _a;
+		this.b = _b;
+	}
+	public int calculate() {
+		  return a - b;
+		  }
+		
+	}
 
-}
+	

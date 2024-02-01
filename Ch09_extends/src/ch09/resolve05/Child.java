@@ -1,4 +1,5 @@
-package ch09.resolve07;
+package ch09.resolve05;
+
 
 /*5. 다음 클래스를 정의하세요
    1) 어린아이가 가지고 있는 구슬 개수 정보를 담을 수 있다
@@ -14,6 +15,28 @@ package ch09.resolve07;
      프로그램을 종료한다.
 */
 
-public class resolve5 {
-
+public class Child {
+	private int ballCnt;
+	
+	public Child(int ballCnt) {
+		this.ballCnt = ballCnt;		
+	}
+	public void give(Child other, int cnt) {
+		sub(cnt);
+		other.add(cnt);
+	}
+	
+	public void get(Child other,int cnt) {
+		other.sub(cnt);
+		add(cnt);
+		}
+	public void add(int cnt) {
+		this.ballCnt += cnt;
+	}
+	public void sub(int cnt) {
+		this.ballCnt -= cnt;
+	}
+	public int getBallcnt() {
+		return ballCnt;
+	}
 }
