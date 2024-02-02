@@ -22,7 +22,17 @@ public class EmployeeManager {
 			
 		}
 		private RegularEmployee createRegularEmployee() {
-			return null;
+			System.out.print("사번 >>");
+			String empno = sc.next();
+			System.out.print("이름 >>");
+			String name = sc.next();
+			System.out.print("연봉 >>");
+			int yearSalary = sc.nextInt();
+			System.out.print("보너스 >>");
+			int bonus = sc.nextInt();
+			RegularEmployee emp = 
+					new RegularEmployee(empno, name, yearSalary, bonus);			
+			return emp;
 		}
 		private TempEmployee createTempEmployee() {
 			return null;
@@ -40,20 +50,35 @@ public class EmployeeManager {
 			boolean isRun = true;
 			while(isRun) {
 				int selNum = viewMenu();
+				Employee emp = null;
 				switch(selNum) {
-				case 1:
+				case EmpMenu.REG_EMP :
+					emp = createRegularEmployee();
 					break;
-				case 2:
+				case EmpMenu.TEMP_EMP :
+					emp = createTempEmployee();
 					break;
-				case 3:
+				case EmpMenu.PART_EMP :
+					emp = createPartTimeEmployee();
 					break;
-				case 4:
+				case EmpMenu.ALL_INFO :
+					emp = null;
+					viewAllEmployeeInfo();
 					break;
-				case 5:
+				case EmpMenu.EXIT :
+					emp = null;
 					isRun = false;
 					break;
 				default:
+					emp = null;
+					System.out.println("해당 항목이 존재하지 않습니다.");
 					break;
+				}
+				// emp 객체가 존재한다면
+				if(emp != null) {
+					boolean isSave = saveEmployee(emp);
+					if(!isSave)
+						System.out.println("더 이상 저장 공간이 없습니다.");
 				}
 			}		
 			System.out.println("Program Exit");
