@@ -18,6 +18,7 @@ public class CarExample {
 				System.out.println("익명 자식 Tire 객체 3이 굴러갑니다.");
 			}
 		});
+		
 	}
 
 }
